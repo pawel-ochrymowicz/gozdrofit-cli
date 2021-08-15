@@ -1,3 +1,6 @@
+[![Build Status](https://github.com/go-pkgz/auth/workflows/build/badge.svg)](https://github.com/butwhoare-you/gozdrofit-cli/actions)
+[![Coverage Status](https://coveralls.io/repos/github/butwhoareyou/gozdrofit-api/badge.svg?branch=master)](https://coveralls.io/github/butwhoareyou/gozdrofit-cli?branch=master)
+
 Unofficial command line tool for Zdrofit Polska API.
 
 ---

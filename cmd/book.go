@@ -3,7 +3,7 @@ package cmd
 import (
 	"errors"
 	gozdrofitapi "github.com/butwhoareyou/gozdrofit-api"
-	mock "github.com/butwhoareyou/gozdrofit-cli/mock"
+	"github.com/butwhoareyou/gozdrofit-cli/mock"
 	log "github.com/go-pkgz/lgr"
 	"net/url"
 	"strings"
@@ -21,7 +21,7 @@ type BookCommand struct {
 	CommonOpts
 }
 
-// gozdrofit-cli book --url=abc --username=user --password=pass --class.club-id=-1 --class.name=tumba --class.date=2021-01-01 --class.hour-from=18 --class.hour-to=20 --dry-run
+// Execute gozdrofit-cli book --url=abc --username=user --password=pass --class.club-id=-1 --class.name=tumba --class.date=2021-01-01 --class.hour-from=18 --class.hour-to=20 --dry-run
 func (cmd *BookCommand) Execute(_ []string) error {
 	log.Print("Running booking command..")
 
