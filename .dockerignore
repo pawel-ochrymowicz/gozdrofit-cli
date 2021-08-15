@@ -1,0 +1,8 @@
+LICENSE
+*.md
+.github
+
+# generated
+*.cov
+*.prof
+*.test
