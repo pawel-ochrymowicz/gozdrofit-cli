@@ -35,5 +35,5 @@ with start time between `16` and `20` (`4PM` and `8PM`).
 | class.date | Class date YYYY-MM-DD | 2021-01-01 | true |
 | class.hour-from | Class start hour low bound (24h) (inclusive) | 16 | true |
 | class.hour-to | Class start hour high bound (24h) (inclusive) | 16 | true |
-| class.debug | Turn on debug logging |  |  |
-| class.dry-run | Dry run |  |  |
+| debug | Turn on debug logging |  |  |
+| dry-run | Dry run |  |  |
