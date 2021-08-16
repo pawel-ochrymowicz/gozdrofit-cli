@@ -16,8 +16,8 @@ gozdrofit-cli book --url=https://example.com/ --username=username@mail.com --pas
 
 * Usage with Docker
 ```
-docker pull pochrymowicz/gozdrofit-cli:0.1.0
-docker run pochrymowicz/gozdrofit-cli:0.1.0 book --url=https://example.com/ --username=username --password=password --class.club-id=1 --class.name=Sztangi --class.date=2021-08-15 --class.hour-from=16 --class.hour-to=20
+docker pull pochrymowicz/gozdrofit-cli:latest
+docker run pochrymowicz/gozdrofit-cli:latest book --url=https://example.com/ --username=username --password=password --class.club-id=1 --class.name=Sztangi --class.date=2021-08-15 --class.hour-from=16 --class.hour-to=20
 ```
 
 This command will book a class named `Sztangi` in club id `1` at `2021-08-15`, and it will perform a lookup for a class
