@@ -1,0 +1,19 @@
+# github.com/butwhoareyou/gozdrofit-api v0.1.3
+## explicit
+github.com/butwhoareyou/gozdrofit-api
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/go-pkgz/lgr v0.10.4
+## explicit
+github.com/go-pkgz/lgr
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.7.0
+## explicit
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+# github.com/umputun/go-flags v1.5.1
+## explicit
+github.com/umputun/go-flags
+# gopkg.in/yaml.v3 v3.0.0
+gopkg.in/yaml.v3
